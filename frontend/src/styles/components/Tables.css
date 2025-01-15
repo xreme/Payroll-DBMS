@@ -1,0 +1,71 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 80px;
+    height: fit-content;
+    border: black solid 1px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+  
+.table-heading {
+    display: flex;
+    border-bottom: solid black 1px;
+}
+
+.table-heading h2{
+    display: flex;
+    margin-left: 60px;
+}
+
+.content {
+    display: flex;
+    padding: 0px 60px;
+    justify-content: space-evenly;
+}
+.content tr thead{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.query-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border-top: solid black 1px;
+    justify-content: center;
+}
+
+.query-section form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.query-section input{
+    display: flex;
+    border-radius: 16px;
+    border: solid black 1px;
+    height: 26px;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.query-label{
+    flex: 1;
+    justify-content: center;
+}
+
+.query-input {
+    flex: 9;
+}
+
+button{
+    border-radius: 10px;
+}
